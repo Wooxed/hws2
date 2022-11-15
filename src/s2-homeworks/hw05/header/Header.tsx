@@ -6,9 +6,10 @@ import {PATH} from '../Pages'
 
 type PropsType = {
     handleOpen: () => void
+    open: boolean
 }
 
-export const Header: FC<PropsType> = ({handleOpen}) => {
+export const Header: FC<PropsType> = ({open,handleOpen}) => {
     // hw5-menu изначально отсутствует, при нажатии на бургер - появляется, при повторном нажатии исчезает
     const location = useLocation()
     const currentPath = location.pathname
