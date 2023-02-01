@@ -1,0 +1,41 @@
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px #E5E5E5 solid;
+
+}
+
+.item:last-of-type {
+
+}
+
+.users {
+    display: grid;
+    grid-template-areas:
+    "thead"
+    "tbody"
+}
+
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    justify-items: end;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 50%;
+    display: grid;
+}
+
+.thead {
+    background: #E5E5E5;
+    font-weight: bold;
+}
+
+.nameCol {
+    padding: 5px;
+}
+
+.ageCol {
+}
