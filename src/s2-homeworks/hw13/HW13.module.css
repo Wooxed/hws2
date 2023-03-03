@@ -1,0 +1,29 @@
+.buttonsContainer {
+    display: flex;
+   gap: 20px;
+
+}
+
+.responseContainer {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.imageContainer {
+}
+
+.image {
+}
+
+.textContainer{
+    margin: 20px;
+}
+
+.code {
+}
+
+.text {
+}
+.info {
+}
